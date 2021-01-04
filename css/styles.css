@@ -73,9 +73,16 @@ label {
 
 @media only screen and (max-width: 700px) {
   body {
-    margin: 0px;
+    margin: 2px;
+    font-size: 5px;
   }
-  form {
-    
+  fieldset {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.5rem;
+    width: 400px;
+    padding: 8px;
+    border: 0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius: 5px;
   }
 }
