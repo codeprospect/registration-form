@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
 body {
   margin: 100px;
@@ -17,6 +18,7 @@ fieldset {
   border: 0;
   box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
   border-radius: 5px;
+  justify-content: center;
 }
 legend {
   font-family: 'Audiowide', cursive;
@@ -40,6 +42,7 @@ input[type=text], input[type=password] {
   margin: 10px 0;
   border: 0;
   border-bottom: 1px solid #F4BC1C;
+  width: 100%;
 }
 input[type=text]:focus, input[type=password]:focus, input[type=button]:focus {
   outline: none;
@@ -68,6 +71,9 @@ input[type=button]:hover {
 }
 label {
   padding-right: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 
@@ -84,5 +90,12 @@ label {
     border: 0;
     box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
     border-radius: 5px;
+  }
+  input[type=text], input[type=password] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 0;
+    border-bottom: 1px solid #F4BC1C;
+    width: 100%;
   }
 }
