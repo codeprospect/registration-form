@@ -12,11 +12,9 @@ This is a basic registration form which uses javascript to validate the user's i
 
 
 ### Technologies Used
-HTML
-
-CSS
-
-Javascript
+- [x] HTML
+- [x] CSS
+- [x] Javascript
 
 ## Contributing
 Pull requests are welcome. You can help in making the code more efficient and short . For major changes, please open an issue first to discuss what you would like to change.
