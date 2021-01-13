@@ -25,6 +25,7 @@ body {
 
 .header h1 {
   margin: 0px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .form {
@@ -34,11 +35,19 @@ body {
 
 .form-control {
   margin: 10px;
+  position: relative;
 }
 
-.form-control small {
+.form-control small, i {
   font-size: 0.7rem;
   visibility: hidden;
+}
+
+.form-control i {
+  position: absolute;
+  font-size: 0.7rem;
+  top: 14px;
+  right: 10px;
 }
 
 .form-control input {
@@ -53,12 +62,46 @@ body {
   outline: none;
 }
 
+.form-control.success input {
+  border-bottom-color: #82D305;
+}
+
+.form-control.failure input {
+  border-bottom-color: #D61A3C;
+}
+
+.form-control.success i.right {
+  color: #82D305;
+  visibility: visible;
+}
+
+.form-control.failure i.wrong {
+  color: #D61A3C;
+  visibility: visible;
+}
+
+.form-control.success small {
+  color: #82D305;
+  visibility: visible;
+}
+
+.form-control.failure small {
+  color: #D61A3C;
+  visibility: visible;
+}
+
 button {
-  background-color: #F4BC1C;
   border: 1px solid #F4BC1C;
+  background-color: #FFE338;
   border-radius: 4px;
   padding: 5px 10px;
   width: 100%;
+  transition: 0.8s;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #F4BC1C;
 }
 
 
