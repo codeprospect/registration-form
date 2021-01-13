@@ -7,26 +7,26 @@
     <title>registration</title>
   </head>
   <body>
-    <form class="" action="index.html" method="post">
-      <fieldset class="fields">
-        <legend>registration</legend>
-        <input type="text" id="fname" name="fname" placeholder="First Name"><br>
-        <input type="text" id="lname" name="lname" placeholder="Last Name"><br>
-        <input type="text" id="email" name="email" placeholder="Email Address"><br>
-        <input type="password" id="pwd" name="pwd" placeholder="password"><br>
-        <input type="password" id="rpt-pwd" name="rpt-pwd" placeholder="repeat password"><br>
-        <p>Gender</p>
-        <input type="radio" id="male" name="gender" value="male">
-        <label for="male">male</label>
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="female">female</label><br>
-        <p>Language</p>
-        <input type="checkbox" id="python" name="python" value="python">
-        <label for="python">python</label>
-        <input type="checkbox" id="javascript" name="javascript" value="javascript">
-        <label for="javascript">javascript</label><br>
-        <input type="button" id="submit" value="submit">
-      </fieldset>
-    </form>
+    <div class="container">
+      <form id="form" class="form" action="index.html" method="POST">
+      <div class="form-control">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" placeholder="waikau" required>
+      </div>
+      <div class="form-control">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="waikau@website.com" required>
+      </div>
+      <div class="form-control">
+        <label for="password">Password</label>
+        <input type="text" name="username" id="password" placeholder="waikau" required>
+      </div>
+      <div class="form-control">
+        <label for="password-check">Repeat Password</label>
+        <input type="password" id="password-check" placeholder="waikau" required>
+      </div>
+      <button type="submit" name="button">Register</button>
+      </form>
+    </div>
   </body>
 </html>
