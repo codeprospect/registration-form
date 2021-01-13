@@ -43,6 +43,7 @@ body {
   border: 0px;
   border-bottom: 1px solid #F4BC1C;
   width: 100%;
+  padding: 10px 0px;
 }
 
 .form-control input:focus {
