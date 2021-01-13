@@ -1,0 +1,70 @@
+/* for labels */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 380px;
+  overflow: hidden;
+  border-radius: 5px;
+  border: 2px solid #F4BC1C;
+}
+
+.header {
+  padding: 20px 40px;
+}
+
+.header h1 {
+  margin: 0px;
+}
+
+.form {
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  margin: 10px;
+}
+
+.form-control small {
+  font-size: 0.7rem;
+  visibility: hidden;
+}
+
+.form-control input {
+  display: block;
+  border: 0px;
+  border-bottom: 1px solid #F4BC1C;
+  width: 100%;
+}
+
+.form-control input:focus {
+  outline: none;
+}
+
+button {
+  background-color: #F4BC1C;
+  border: 1px solid #F4BC1C;
+  border-radius: 4px;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 700px) {
+  body {
+    margin: 0px;
+    background: white;
+  }
+  .container {
+    width: 310px;
+
+  }
+}
