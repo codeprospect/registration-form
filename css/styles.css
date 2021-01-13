@@ -41,6 +41,7 @@ body {
 .form-control small, i {
   font-size: 0.7rem;
   visibility: hidden;
+  transition: 0.8s;
 }
 
 .form-control i {
@@ -73,21 +74,23 @@ body {
 .form-control.success i.right {
   color: #82D305;
   visibility: visible;
+  transition-timing-function: ease;
 }
 
 .form-control.failure i.wrong {
   color: #D61A3C;
   visibility: visible;
+  transition-timing-function: ease;
 }
 
 .form-control.success small {
   color: #82D305;
-  visibility: visible;
 }
 
 .form-control.failure small {
   color: #D61A3C;
   visibility: visible;
+  transition-timing-function: ease;
 }
 
 button {
@@ -102,6 +105,10 @@ button {
 button:hover {
   cursor: pointer;
   background-color: #F4BC1C;
+}
+
+button:focus {
+  outline: none;
 }
 
 
